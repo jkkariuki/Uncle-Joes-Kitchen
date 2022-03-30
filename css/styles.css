@@ -1,0 +1,175 @@
+html {
+  scroll-behavior: smooth
+}
+
+body {
+  text-align: center;
+  color: #125D98;
+  font-family: "Lato";
+  margin: 0 auto;
+}
+
+h1, h2, h3 {
+  font-weight: 900;
+}
+
+/* containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+.nav-container {
+  padding-bottom: 0;
+  padding-top: 3%;
+  background-color: #DDDDDD;
+  font-weight: 700;
+}
+
+.title-container {
+  padding: 0 15% 7%;
+}
+
+/* sections */
+.colored-section {
+  background-color: #F5A962;
+  color: #fff;
+}
+
+/* white-section */
+.white-section {
+  background-color: #DDDDDD;
+}
+
+/* Navigation Bar */
+.logo {
+  border-radius: 100%;
+  margin-right: 5px;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  color: #125D98;
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  color: #125D98;
+  font-size: 1.5rem;
+}
+
+.fa-bars {
+  color: #125D98;
+}
+
+/* Title Section */
+.title-text {
+  text-align: left;
+  padding: 7%;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.big-heading {
+  margin-bottom: 30px;
+  font-size: 3.5rem;
+
+}
+
+#youtube-intro {
+  width: 65%;
+  height: 400px;
+  text-align: center;
+  margin-top: 75px;
+  border-radius: 10%;
+}
+
+/* Secret Ingredient */
+#secret-ingredient .container-fluid {
+  padding: 5% 15%;
+  font-family: "Hurricane";
+}
+
+.secret-quote {
+  font-size: 3rem;
+}
+
+/* About section */
+.about-photo {
+  width: 50%;
+  border-radius: 100%;
+}
+
+.about-story {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.donation-logos {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-image {
+  width: 50%;
+  border-radius: 100%
+}
+
+.carousel-controls {
+  background-color: #125D98;
+  ;
+  width: 15%;
+  height: 35px;
+}
+
+#footer {
+  background-color: #F5A962;
+  padding: 5% 10%;
+}
+
+.sm-icon {
+  margin: 1%;
+  color: #fff;
+}
+
+.youtube-link {
+  color: black;
+  font-size: 1.5rem;
+}
+
+.fa-youtube{
+  color: red;
+}
+
+@media (max-width: 1028px) {
+  .title-text {
+    text-align: center;
+  }
+
+  .donation-logos {
+    width: 25%;
+    margin: 20px 20px 50px;
+  }
+
+  .carousel-image {
+    width: 70%;
+    border-radius: 100%
+  }
+
+  #youtube-intro {
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    margin-top: 75px;
+    border-radius: 10%;
+  }
+
+  .about-photo {
+    width: 50%;
+    border-radius: 100%;
+    margin-bottom: 20px;
+  }
+
+}
